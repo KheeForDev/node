@@ -1,0 +1,5 @@
+20220828	08:57:07	e292c987-598c-4ad8-9bb8-29e9053ee6ec	Error Not allowed by CORS
+20220903	07:57:32	eccced08-da55-4966-85d9-b88e64fed15b	TypeError res.sendStatue is not a function
+20220903	07:58:42	09c0ad6d-51e7-4ebd-a3e0-03d7baeec03e	TypeError res.sendStatue is not a function
+20220903	08:21:18	50d7e2ce-902f-40fd-92c1-1276bcd34866	ReferenceError cookie is not defined
+20220903	08:23:39	bc338159-54d7-45d1-a11e-3368ec08c7fd	TypeError Cannot read properties of undefined (reading 'username')
