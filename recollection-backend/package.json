@@ -1,0 +1,13 @@
+{
+  "name": "recollection-backend",
+  "version": "1.0.0",
+  "description": "Express backend service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khee Houy, Tan",
+  "license": "ISC"
+}
