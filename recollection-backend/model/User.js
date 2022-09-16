@@ -18,3 +18,5 @@ const userSchema = new Schema({
         Admin: Number
     }
 })
+
+module.exports = mongoose.model("User", userSchema);
