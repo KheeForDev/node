@@ -9,5 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Khee Houy, Tan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "winston": "^3.8.2"
+  }
 }
