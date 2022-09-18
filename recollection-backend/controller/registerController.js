@@ -32,6 +32,6 @@ const handleRegister = async (req, res) => {
             "message": err.message
         })
     }
-}
+};
 
 module.exports = { handleRegister };
