@@ -13,7 +13,7 @@ const userSchema = new Schema({
     roles: {
         User: {
             type: Number,
-            default: 1
+            default: 1000
         },
         Admin: Number
     }

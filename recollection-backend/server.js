@@ -16,6 +16,7 @@ app.use(express.json());
 // routes
 app.use("/register", require("./route/register"));
 app.use("/login", require("./route/login"));
+app.use("/configsetting", require("./route/api/configSetting"));
 
 
 mongoose.connection.once("open", () => {

@@ -6,7 +6,7 @@ const handleRegister = async (req, res) => {
 
     if (!username || !password)
         return res.status(400).json({
-            "message": "Username and password are required"
+            "message": "Username and password are required."
         });
 
     // check for duplicate username
@@ -25,7 +25,7 @@ const handleRegister = async (req, res) => {
         });
 
         res.status(200).json({
-            "message": "User registered successfully"
+            "message": "User registered successfully."
         })
     } catch (err) {
         res.status(500).json({
